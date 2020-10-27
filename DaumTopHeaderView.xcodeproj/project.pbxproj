@@ -13,6 +13,9 @@
 		DB88A0F92547EC76002FC524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB88A0F72547EC76002FC524 /* Main.storyboard */; };
 		DB88A0FB2547EC77002FC524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB88A0FA2547EC77002FC524 /* Assets.xcassets */; };
 		DB88A0FE2547EC77002FC524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB88A0FC2547EC77002FC524 /* LaunchScreen.storyboard */; };
+		DB88A1092547F330002FC524 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88A1082547F330002FC524 /* HeaderView.swift */; };
+		DB88A10D2547F341002FC524 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88A10C2547F341002FC524 /* Cell.swift */; };
+		DB88A1102547F36F002FC524 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88A10F2547F36F002FC524 /* SectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DB88A0FA2547EC77002FC524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB88A0FD2547EC77002FC524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB88A0FF2547EC77002FC524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB88A1082547F330002FC524 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DB88A10C2547F341002FC524 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		DB88A10F2547F36F002FC524 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		DB88A0F02547EC76002FC524 /* DaumTopHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				DB88A1072547F323002FC524 /* view */,
 				DB88A0F12547EC76002FC524 /* AppDelegate.swift */,
 				DB88A0F32547EC76002FC524 /* SceneDelegate.swift */,
 				DB88A0F52547EC76002FC524 /* DaumViewController.swift */,
@@ -65,6 +72,16 @@
 				DB88A0FF2547EC77002FC524 /* Info.plist */,
 			);
 			path = DaumTopHeaderView;
+			sourceTree = "<group>";
+		};
+		DB88A1072547F323002FC524 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DB88A1082547F330002FC524 /* HeaderView.swift */,
+				DB88A10C2547F341002FC524 /* Cell.swift */,
+				DB88A10F2547F36F002FC524 /* SectionView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +156,10 @@
 			files = (
 				DB88A0F62547EC76002FC524 /* DaumViewController.swift in Sources */,
 				DB88A0F22547EC76002FC524 /* AppDelegate.swift in Sources */,
+				DB88A1102547F36F002FC524 /* SectionView.swift in Sources */,
+				DB88A10D2547F341002FC524 /* Cell.swift in Sources */,
 				DB88A0F42547EC76002FC524 /* SceneDelegate.swift in Sources */,
+				DB88A1092547F330002FC524 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
